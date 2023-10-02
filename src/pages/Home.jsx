@@ -2,8 +2,10 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Blogcard from '../components/Blogcard'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-// import Carouselblog from '../components/Carouselblog';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '../components/Footer';
+import Typography from '@mui/material/Typography';
+import MainFeaturedPost from '../components/Mainfeatured';
+
 
 const darkTheme = createTheme({
   palette: {
@@ -14,16 +16,21 @@ const darkTheme = createTheme({
 const Home = () => {
   return (
     <>
+
       <ThemeProvider theme={darkTheme}>
         <Navbar />
-        {/* <Carouselblog /> */}
         <div
           style={{
             backgroundColor: darkTheme.palette.background.default, // Use the theme's background color
-            minHeight: '100vh', // Set a minimum height to fill the viewport
-            
+            minHeight: '100vh', // Set a minimum height to fill the viewports
           }}>
           <br />
+          <MainFeaturedPost />
+          <br />
+          <Typography align='center' color="textPrimary">
+            Trending Now
+          </Typography>
+          <br />
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
             <Blogcard />
             <Blogcard />
@@ -35,6 +42,7 @@ const Home = () => {
             <Blogcard />
             <Blogcard />
           </div>
+          <Footer />
         </div>
       </ThemeProvider>
     </>
