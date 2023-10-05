@@ -77,7 +77,7 @@ const About = () => {
                     <Grid container spacing={3} style={{justifyContent: "space-evenly"}}>
                         <TeamMemberCard name="Kaustubh" title="CTO|Metablog" bio="Coding and playing football"/>
                         <TeamMemberCard name="Shawn" title="Cybersecurity Expeert" bio="Watching anime while hacking"/>
-                        <TeamMemberCard name="Tans" title="Content Creator" bio="Hiking and making content "/>
+                        <TeamMemberCard name="Ninad" title="Editor" bio="Eat Sleep Edit Repeat ♻ "/>
                         <TeamMemberCard name="Hamja" title="Web Developer" bio="Drinking coffee and coding!!"/>
                         <TeamMemberCard name="Srinivas" title="Data Scientist" bio="Chelsea supporter!(I need help)"/>     
                     </Grid>
