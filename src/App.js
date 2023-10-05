@@ -3,7 +3,7 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
-import Error404 from "./pages/Error404";
+
 function App() {
   return (
     <>
@@ -13,8 +13,6 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/home" element={<Home />} />
         <Route path="/post" element={<Post />} />
-
-        <Route path="*" element={<Error404 />} />
       </Routes>
     </>
   );
