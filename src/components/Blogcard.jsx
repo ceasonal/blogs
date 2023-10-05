@@ -1,11 +1,10 @@
-import React from 'react'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
-import testimage from '../images/test.jpg';
-
+import React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Button, CardActionArea, CardActions } from "@mui/material";
+import testimage from "../images/test.jpg";
 
 export default function Blogcard() {
   return (
@@ -33,5 +32,5 @@ export default function Blogcard() {
         </Button>
       </CardActions>
     </Card>
-  )
+  );
 }

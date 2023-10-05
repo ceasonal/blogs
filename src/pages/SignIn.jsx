@@ -18,7 +18,7 @@ const SignIn = () => {
     left: 0,
     width: "100%",
     height: "100%",
-    background: "rgba(0, 0, 0, 0.5)"
+    background: "rgba(0, 0, 0, 0.5)",
   };
 
   const backgroundImageStyle = {
@@ -26,7 +26,7 @@ const SignIn = () => {
       'url("https://uhdwallpapers.org/uploads/cache/101493263/3d-dark-shapes_600x338-mm-90.jpg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
-    minHeight: "100vh"
+    minHeight: "100vh",
   };
 
   const handleSubmit = (event) => {
@@ -43,80 +43,93 @@ const SignIn = () => {
         <CssBaseline />
         <Container component="main" maxWidth="xs">
           <Box>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-            <Typography component="h1" variant="h5" style={{ color: "whitesmoke" }}>
-              Sign in
-            </Typography>
-            <Box
-              component="form"
-              noValidate
-              sx={{ mt: 1 }}
-              onSubmit={handleSubmit}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                minHeight: "100vh",
+              }}
+            >
+              <Typography
+                component="h1"
+                variant="h5"
+                style={{ color: "whitesmoke" }}
               >
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                id="email"
-                label="Email Address"
-                name="email"
-                autoComplete="email"
-                autoFocus
-                inputProps={{
-                  style: { color: "white", borderBottom: "1px solid white" }
-                }}
-                InputLabelProps={{
-                  style: {
-                    color: "white"
-                  },
-                }}
-              />
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                name="password"
-                label="Password"
-                type="password"
-                id="password"
-                autoComplete="current-password"
-                inputProps={{
-                  style: { color: "white", borderBottom: "1px solid white" }
-                }}
-                InputLabelProps={{
-                  style: {
-                    color: "white"
-                  },
-                }}
-              />
-              <FormControlLabel style={{ color: "whitesmoke" }}
-                control={
-                  <Checkbox value="remember" sx={{ color: "whitesmoke" }} />
-                }
-                label="Remember me"
+                Sign in
+              </Typography>
+              <Box
+                component="form"
+                noValidate
+                sx={{ mt: 1 }}
+                onSubmit={handleSubmit}
+              >
+                <TextField
+                  margin="normal"
+                  required
+                  fullWidth
+                  id="email"
+                  label="Email Address"
+                  name="email"
+                  autoComplete="email"
+                  autoFocus
+                  inputProps={{
+                    style: { color: "white", borderBottom: "1px solid white" },
+                  }}
+                  InputLabelProps={{
+                    style: {
+                      color: "white",
+                    },
+                  }}
                 />
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2 }}
-              >
-                Sign In
-              </Button>
-              <Grid container>
-                <Grid item xs>
-                  <Link href="#" variant="body2">
-                    Forgot password?
-                  </Link>
+                <TextField
+                  margin="normal"
+                  required
+                  fullWidth
+                  name="password"
+                  label="Password"
+                  type="password"
+                  id="password"
+                  autoComplete="current-password"
+                  inputProps={{
+                    style: { color: "white", borderBottom: "1px solid white" },
+                  }}
+                  InputLabelProps={{
+                    style: {
+                      color: "white",
+                    },
+                  }}
+                />
+                <FormControlLabel
+                  style={{ color: "whitesmoke" }}
+                  control={
+                    <Checkbox value="remember" sx={{ color: "whitesmoke" }} />
+                  }
+                  label="Remember me"
+                />
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  sx={{ mt: 3, mb: 2 }}
+                >
+                  Sign In
+                </Button>
+                <Grid container>
+                  <Grid item xs>
+                    <Link href="#" variant="body2">
+                      Forgot password?
+                    </Link>
+                  </Grid>
+                  <Grid item>
+                    <Link href="/signup" variant="body2">
+                      "Don't have an account? Sign Up"
+                    </Link>
+                  </Grid>
                 </Grid>
-                <Grid item>
-                  <Link href="/signup" variant="body2">
-                    "Don't have an account? Sign Up"
-                  </Link>
-                </Grid>
-              </Grid>
-            </Box>
-                </div>
+              </Box>
+            </div>
           </Box>
         </Container>
       </div>
