@@ -3,6 +3,8 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/post" element={<Post />} />
         <Route path="*" element={<Error404 />} />
       </Routes>

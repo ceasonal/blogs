@@ -1,14 +1,12 @@
-import React from 'react'
-import ResponsiveAppBar from '../components/Navbar'
-
-
+import React from "react";
+import ResponsiveAppBar from "../components/Navbar";
 
 const Post = () => {
-    return (
-        <>
-        <ResponsiveAppBar />
-        </>
-    )
-}
+  return (
+    <>
+      <ResponsiveAppBar />
+    </>
+  );
+};
 
-export default Post
+export default Post;
