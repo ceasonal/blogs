@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
+import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
   const overlayStyle = {
@@ -28,14 +29,20 @@ const SignIn = () => {
     backgroundPosition: "center",
     minHeight: "100vh",
   };
-
+  const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-    });
+
+    const email = data.get("email");
+    const password = data.get("password");
+
+    if (email === "testuser@gmail.com" && password === "Sipher@4") {
+      alert("Sign in successful!");
+      navigate("/home");
+    }else{
+      alert("Invalid credentials!");
+    }
   };
   return (
     <div style={backgroundImageStyle}>

@@ -9,7 +9,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-
+import { useNavigate } from "react-router-dom";
 const SignUp = () => {
   const overlayStyle = {
     content: '""',
@@ -28,16 +28,48 @@ const SignUp = () => {
     backgroundPosition: "center",
     minHeight: "100vh",
   };
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+
+    // Get values from the form
+    const email = data.get("email");
+    const password = data.get("password");
+    const firstName = data.get("firstName");
+    const lastName = data.get("lastName");
+
     console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-      firstName: data.get("firstName"),
-      lastName: data.get("lastName"),
+      checkbox: data.get("checkbox"),
     });
+    if (!email || !password || !firstName || !lastName) {
+      alert("Please fill in all the fields");
+      return;
+    }
+
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (!emailRegex.test(email)) {
+      alert("Invalid email format");
+      return;
+    }
+
+    const passwordRegex =
+      /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=.*[a-zA-Z]).{8,}$/;
+    if (!passwordRegex.test(password)) {
+      alert("Invalid password format");
+      return;
+    }
+
+    if (
+      email === "usertest@gmail.com" &&
+      password === "Ceasonal@5" &&
+      firstName === "Shawn" &&
+      lastName === "Benhur"
+    ) {
+      alert("Sign up successful!");
+      navigate("/home");
+    }
   };
 
   return (
