@@ -30,17 +30,9 @@ const Home = () => {
             Trending Now
           </Typography>
           <br />
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+
             <Blogcard />
-            <Blogcard />
-            <Blogcard />
-          </div>
-          <br />
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-            <Blogcard />
-            <Blogcard />
-            <Blogcard />
-          </div>
+
           <Footer />
         </div>
       </ThemeProvider>

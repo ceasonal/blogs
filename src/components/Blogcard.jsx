@@ -3,34 +3,44 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
-import testimage from "../images/test.jpg";
+import { CardActionArea } from "@mui/material";
+import { Link } from "react-router-dom";
+import { blog } from "../config/data";
 
 export default function Blogcard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={testimage}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
-    </Card>
+    <div className="container grid3">
+      {blog.map((item) => (
+        <Card key={item.id} sx={{ maxWidth: 345 }} className="box boxItems">
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image={item.cover}
+              alt={item.title}
+            />
+            <CardContent className="details">
+              <div>
+
+                <a href="/">#{item.category}</a>
+              </div>
+              <Link to={`/blog/${item.id}`}> 
+                <Typography gutterBottom variant="h5" component="div">
+                  {item.title}
+                </Typography>
+              </Link>
+              <Typography variant="body2" color="text.secondary">
+                {item.desc.slice(0, 180)}...
+              </Typography>
+              <div className="date">
+
+                <label htmlFor="">{item.date}</label>
+                
+              </div>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      ))}
+    </div>
   );
 }
