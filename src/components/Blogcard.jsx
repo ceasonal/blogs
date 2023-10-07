@@ -7,40 +7,40 @@ import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
 import { blog } from "../config/data";
 
-export default function Blogcard() {
+export default function Blogcard(props) {
   return (
     <div className="container grid3">
-      {blog.map((item) => (
-        <Card key={item.id} sx={{ maxWidth: 345 }} className="box boxItems">
+      
+        <Card key={props.id} sx={{ maxWidth: 345 }} className="box boxItems">
           <CardActionArea>
             <CardMedia
               component="img"
-              height="140"
-              image={item.cover}
-              alt={item.title}
+              height="180"
+              image={props.cover}
+              alt={props.title}
             />
             <CardContent className="details">
               <div>
 
-                <a href="/">#{item.category}</a>
+                <a href="/">#{props.category}</a>
               </div>
-              <Link to={`/blog/${item.id}`}> 
+              <Link to={`/blog/${props.id}`}> 
                 <Typography gutterBottom variant="h5" component="div">
-                  {item.title}
+                  {props.title}
                 </Typography>
               </Link>
               <Typography variant="body2" color="text.secondary">
-                {item.desc.slice(0, 180)}...
+                {props.desc.slice(0, 180)}...
               </Typography>
               <div className="date">
 
-                <label htmlFor="">{item.date}</label>
+                <label htmlFor="">{props.date}</label>
                 
               </div>
             </CardContent>
           </CardActionArea>
         </Card>
-      ))}
+      
     </div>
   );
 }

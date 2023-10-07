@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Box from "@mui/material/Box";
-import testimage from "../images/test.jpg";
+import testimage from "../images/featured.png";
 
 export default function MainFeaturedPost() {
   //   const { post } = props;
@@ -19,6 +19,7 @@ export default function MainFeaturedPost() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        // backgroundImage: "https://images8.alphacoders.com/132/1323081.png",
         backgroundImage: `url(${testimage})`,
         marginLeft: "35px",
         marginRight: "35px",
@@ -51,14 +52,13 @@ export default function MainFeaturedPost() {
               color="inherit"
               gutterBottom
             >
-              Main Featured Post
+              How AI will take over everything.
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              dignissimos accusamus, eveniet nobis
+            The 19 tell-tale signs an article was written by AI
             </Typography>
             <Link variant="subtitle1" href="#">
-              hello
+              Check it out
             </Link>
           </Box>
         </Grid>
