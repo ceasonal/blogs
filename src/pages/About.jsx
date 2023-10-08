@@ -106,13 +106,14 @@ const About = () => {
               name="Kaustubh"
               title="CTO|Metablog"
               bio="Coding and playing football"
-              icon="https://wallpapercave.com/wp/wp10509485.jpg"
+              icon="https://cdn.discordapp.com/attachments/1012020961299664899/1160613172596707478/image.png?ex=65354c3f&is=6522d73f&hm=9bb90dbb7ccd57d31007fd43b72d3698dfdbdfba5a31f9e44f0ececfe4cf263d&"
             />
             <TeamMemberCard
               name="Shawn"
               title="Cybersecurity Expert"
               bio="Watching anime while hacking"
               icon= "https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg"
+              // icon= "https://cdn.discordapp.com/attachments/1012020961299664899/1160611838770286592/image.png?ex=65354b01&is=6522d601&hm=3834f0c5f85f88e750e356f5a0f863aba5f5176e18b20eafc14f87e529fc8320&"
             />
             <TeamMemberCard
               name="Ninad"
@@ -130,7 +131,7 @@ const About = () => {
               name="Srinivas"
               title="Data Scientist"
               bio="Chelsea supporter!(I need help)"
-              icon="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/05/18144539/shutterstock_1772959055-1.jpg"
+              icon="https://cdn.discordapp.com/attachments/1012020961299664899/1160610817675366491/image.png?ex=65354a0e&is=6522d50e&hm=1ba7e6a57e974026519ec1ddcfe1df03204e7e60601f01b423e47345e1c8118a&"
             />
           </Grid>
         </div>

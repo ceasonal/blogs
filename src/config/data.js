@@ -7,6 +7,9 @@
       category: "TECH",
       cover: "https://st4.depositphotos.com/22162388/23954/i/450/depositphotos_239549088-stock-photo-cyber-security-data-protection-information.jpg",
       date: "APRIL 05, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
   
     {
@@ -16,6 +19,9 @@
       category: "AI",
       cover: "https://imgeng.jagran.com/images/2023/jun/ai%20images%20holi%20vrindavan1687103503681.jpg",
       date: "MARCH 15, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 3,
@@ -24,6 +30,9 @@
       category: "TECH",
       cover: "https://www.analyticsinsight.net/wp-content/uploads/2023/01/Linux-vs-Windows-Which-Operating-System-is-the-Best.jpg",
       date: "MARCH 15, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 4,
@@ -32,6 +41,9 @@
       category: "TECH",
       cover: "https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2022/06/large-language-model-logical-reasoning.jpg?ssl=1",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 5,
@@ -40,6 +52,9 @@
       category: "ESports",
       cover: "https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 6,
@@ -48,6 +63,9 @@
       category: "Movie",
       cover: "https://deadline.com/wp-content/uploads/2023/06/Barbie-Oppenheimer.jpg",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 7,
@@ -56,6 +74,9 @@
       category: "SPORTS",
       cover: "https://cdn.24.co.za/files/Cms/General/d/1414/107ef94f9c594b25a61ce62601015cbf.jpg",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 8,
@@ -64,6 +85,9 @@
       category: "MEME",
       cover: "https://www.screengeek.net/wp-content/uploads/2023/09/blue-smurf-cat-meme.jpg",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     },
     {
       id: 9,
@@ -72,5 +96,8 @@
       category: "Gaming",
       cover: "https://merahputih.com/media/cc/c7/74/ccc774e5212c106523026025b04cc661.jpeg",
       date: "February 20, 2018",
+      authoricon:"https://cdn.discordapp.com/attachments/1012020961299664899/1160621005610418267/image.png?ex=6535538b&is=6522de8b&hm=a30d8859f920a84f65f6a2a373e8336688402ef87051b9df462379e348079a98&",
+      author:"Bruce Wayne",
+      comments:["Well said","Of all the languages you decided to speak facts","Truth has been spoken"]
     }
   ]
