@@ -130,7 +130,7 @@ const About = () => {
               name="Srinivas"
               title="Data Scientist"
               bio="Chelsea supporter!(I need help)"
-              icon="https://cdn.discordapp.com/attachments/1070680673049923694/1160564670172770375/0e02e179-82e0-4788-841f-a4887467a9bc.jpg?ex=65351f13&is=6522aa13&hm=017842310abf02ebe4f4cf2976fa50d52fdcff2e6b5d9e097869cb63f7d35d49&"
+              icon="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/05/18144539/shutterstock_1772959055-1.jpg"
             />
           </Grid>
         </div>
