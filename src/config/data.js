@@ -1,84 +1,5 @@
-export const nav = [
-    {
-      id: 1,
-      text: "home",
-      url: "/",
-    },
-    {
-      id: 2,
-      text: "about",
-      url: "/about",
-    },
-    {
-      id: 3,
-      text: "pages",
-      url: "/pages",
-    },
-    {
-      id: 4,
-      text: "blog",
-      url: "/blog",
-    },
-    {
-      id: 5,
-      text: "contact",
-      url: "/contact",
-    },
-  ]
-  export const category = [
-    {
-      id: 1,
-      category: "Life",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca1.png",
-    },
-    {
-      id: 2,
-      category: "Fashion",
-      title: "Becoming a Dragonfly",
-      cover: "../images/category/ca2.png",
-    },
-    {
-      id: 3,
-      category: "Travel",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca3.png",
-    },
-    {
-      id: 4,
-      category: "Sport",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca4.png",
-    },
-    {
-      id: 5,
-      category: "Fun",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca5.png",
-    },
-    {
-      id: 6,
-      category: "Health",
-      title: "Becoming a Dragonfly",
-      cover: "../images/category/ca6.png",
-    },
-    {
-      id: 7,
-      category: "Business",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca7.png",
-    },
-    {
-      id: 8,
-      category: "Technology",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca8.png",
-    },
-  ]
 
-
-
-  export const blog = [
+  export const blogList = [
     {
       id: 1,
       title: "Cybersecurity, the most demanding job in 2023",
@@ -104,9 +25,6 @@ export const nav = [
       cover: "https://www.analyticsinsight.net/wp-content/uploads/2023/01/Linux-vs-Windows-Which-Operating-System-is-the-Best.jpg",
       date: "MARCH 15, 2018",
     },
-  ]
-
-  export const blog2=[
     {
       id: 4,
       title: "Large Language Model Logical Reasoning",
@@ -130,10 +48,7 @@ export const nav = [
       category: "Movie",
       cover: "https://deadline.com/wp-content/uploads/2023/06/Barbie-Oppenheimer.jpg",
       date: "February 20, 2018",
-    }
-  ]
-
-  export const blog3=[
+    },
     {
       id: 7,
       title: "Chelsea is finished.No more the best club in London ",

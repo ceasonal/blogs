@@ -5,8 +5,8 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Footer from "../components/Footer";
 import Typography from "@mui/material/Typography";
 import MainFeaturedPost from "../components/Mainfeatured";
-import { blog, blog2, blog3 } from "../config/data";
-; // Import the blog data from data.js
+import { blogList } from "../config/data";
+import Grid from "@mui/material/Grid";
 
 const darkTheme = createTheme({
   palette: {
@@ -32,50 +32,24 @@ const Home = () => {
             Trending Now
           </Typography>
           <br />
-
-          {/* Map through the blog data and create Blogcard components */}
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-            {blog.map((post) => (
-              <Blogcard
-                key={post.id}
-                id={post.id}
-                title={post.title}
-                desc={post.desc.slice(0, 50)}
-                category={post.category}
-                cover={post.cover}
-                date={post.date}
-              />
-            ))}
+          <div style={{ marginLeft: 50 }}>
+            {" "}
+            <Grid container spacing={3}>
+              {blogList.map((post) => (
+                <Grid item key={post.id} xs={12} sm={6} md={4}>
+                  <Blogcard
+                    id={post.id}
+                    title={post.title}
+                    desc={post.desc.slice(0, 50)}
+                    category={post.category}
+                    cover={post.cover}
+                    date={post.date}
+                  />
+                </Grid>
+              ))}
+            </Grid>
           </div>
           <br />
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-            {blog2.map((post) => (
-              <Blogcard
-                key={post.id}
-                id={post.id}
-                title={post.title}
-                desc={post.desc.slice(0, 50)}
-                category={post.category}
-                cover={post.cover}
-                date={post.date}
-              />
-            ))}
-          </div>
-          <br />
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-            {blog3.map((post) => (
-              <Blogcard
-                key={post.id}
-                id={post.id}
-                title={post.title}
-                desc={post.desc.slice(0, 50)}
-                category={post.category}
-                cover={post.cover}
-                date={post.date}
-              />
-            ))}
-          </div>
-
           <Footer />
         </div>
       </ThemeProvider>

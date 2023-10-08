@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Post from "./pages/Post";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Blogcard from "./components/Blogcard";
+import Blog from "./pages/Blog";
 import Error404 from "./pages/Error404";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/post" element={<Post />} />
+        <Route exact path="/blog/:id" element={<Blog />} />
         <Route path="*" element={<Error404 />} />
-        <Route path="/blog/:id" render={() => <Blogcard id="1" />} />
       </Routes>
     </>
   );
