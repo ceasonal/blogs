@@ -46,10 +46,9 @@ const Blog = () => {
                   </Typography>
                   <Typography variant="body1">{blogs.desc}</Typography>
                   <Typography variant="body1">
-                    {/* Add your blogs content here */}
                   </Typography>
                   <Typography variant="subtitle2">
-                    Author: {blogs.authorName}
+                    Author: {blogs.authorIcon} {blogs.authorName}
                   </Typography>
                 </Grid>
               </Grid>

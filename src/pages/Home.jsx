@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Blogcard from "../components/Blogcard";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Footer from "../components/Footer";
-import Typography from "@mui/material/Typography";
 import MainFeaturedPost from "../components/Mainfeatured";
 import { blogList } from "../config/data";
 import Grid from "@mui/material/Grid";
@@ -27,10 +26,6 @@ const Home = () => {
         >
           <br />
           <MainFeaturedPost />
-          <br />
-          <Typography align="center" color="textPrimary">
-            Trending Now
-          </Typography>
           <br />
           <div style={{ marginLeft: 50 }}>
             {" "}

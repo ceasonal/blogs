@@ -2,30 +2,27 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
+import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
+import SendIcon from '@mui/icons-material/Send';
 import testimage from "../images/featured.png";
 
 export default function MainFeaturedPost() {
-  //   const { post } = props;
 
   return (
     <Paper
       sx={{
         position: "relative",
-        // backgroundColor: 'grey.800',
         color: "#fff",
         mb: 4,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        // backgroundImage: "https://images8.alphacoders.com/132/1323081.png",
         backgroundImage: `url(${testimage})`,
         marginLeft: "35px",
         marginRight: "35px",
       }}
     >
-      {/* Increase the priority of the hero background image */}
       {<img style={{ display: "none" }} src={testimage} alt={"abc"} />}
       <Box
         sx={{
@@ -52,14 +49,14 @@ export default function MainFeaturedPost() {
               color="inherit"
               gutterBottom
             >
-              How AI will take over everything.
+              Got something to say?
             </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-            The 19 tell-tale signs an article was written by AI
-            </Typography>
-            <Link variant="subtitle1" href="#">
-              Check it out
-            </Link>
+            <Typography variant="h6" color="inherit" paragraph>
+              Write a blog post and share it with the world!
+            </Typography> <br/>
+            <Button  variant="outlined" endIcon={<SendIcon />} href="/create">
+              Create Post
+            </Button>
           </Box>
         </Grid>
       </Grid>

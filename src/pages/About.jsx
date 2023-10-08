@@ -2,7 +2,6 @@ import React from "react";
 import ResponsiveAppBar from "../components/Navbar";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Button, Grid, Typography } from "@mui/material";
-import team from "../images/officeteam.jpg";
 import AboutUsCard from "../components/Choosecard";
 import TeamMemberCard from "../components/Teammembercard";
 import Footer from "../components/Footer";
@@ -35,7 +34,7 @@ const About = () => {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
               <img
-                src={team}
+                src='https://www.rocksolid.com/hubfs/annie-spratt-hCb3lIB8L8E-unsplash-768x504-1.jpg'
                 alt="team"
                 style={{
                   maxWidth: "95%",
@@ -107,26 +106,31 @@ const About = () => {
               name="Kaustubh"
               title="CTO|Metablog"
               bio="Coding and playing football"
+              icon="https://wallpapercave.com/wp/wp10509485.jpg"
             />
             <TeamMemberCard
               name="Shawn"
-              title="Cybersecurity Expeert"
+              title="Cybersecurity Expert"
               bio="Watching anime while hacking"
+              icon= "https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg"
             />
             <TeamMemberCard
               name="Ninad"
               title="Editor"
               bio="Eat Sleep Edit Repeat ♻ "
+              icon="https://pps.whatsapp.net/v/t61.24694-24/363270656_3596646263900325_4253991315114160706_n.jpg?ccb=11-4&oh=01_AdQ2Lf4Ao6eOHdlDD8XouoJ_uCbF5GU6ccU7BpK1VMF-uw&oe=652FA5C1&_nc_sid=000000&_nc_cat=103"
             />
             <TeamMemberCard
               name="Hamja"
               title="Web Developer"
               bio="Drinking coffee and coding!!"
+              icon="https://media.discordapp.net/attachments/1070680673049923694/1160564670466367569/53368643-d73b-4e99-bad4-37ae65245e41.jpg?ex=65351f13&is=6522aa13&hm=0a2f5cd2b381eaeabcb76e678f2d3e3387ea77b60be720d98941793eef3b0d59&=&width=431&height=473"
             />
             <TeamMemberCard
               name="Srinivas"
               title="Data Scientist"
               bio="Chelsea supporter!(I need help)"
+              icon="https://cdn.discordapp.com/attachments/1070680673049923694/1160564670172770375/0e02e179-82e0-4788-841f-a4887467a9bc.jpg?ex=65351f13&is=6522aa13&hm=017842310abf02ebe4f4cf2976fa50d52fdcff2e6b5d9e097869cb63f7d35d49&"
             />
           </Grid>
         </div>
