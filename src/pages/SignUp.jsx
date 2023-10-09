@@ -220,6 +220,14 @@ const SignUp = () => {
                     mb: 2,
                     backgroundColor: "#ff5733",
                     color: "white",
+                    "&:focus": {
+                      backgroundColor: "#ff5733",
+                      color: "white",
+                    },
+                    "&:hover": {
+                      backgroundColor: "rgba(255, 87, 51, 0.2)",
+                      color: "white",
+                    },
                   }}
                 >
                   Sign Up

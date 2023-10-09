@@ -5,6 +5,12 @@ import { Button, Grid, Typography } from "@mui/material";
 import AboutUsCard from "../components/Choosecard";
 import TeamMemberCard from "../components/Teammembercard";
 import Footer from "../components/Footer";
+import officeteam from "../images/officeteam.jpg"
+import kaust from "../images/kaust.png"
+import shawn from "../images/shawn.png"
+import nnk from "../images/nnk.jpg"
+import hamja from "../images/hamja.jpg"
+import srini from "../images/srini.jpg"
 
 const darkTheme = createTheme({
   palette: {
@@ -19,8 +25,8 @@ const About = () => {
         <ResponsiveAppBar />
         <div
           style={{
-            backgroundColor: darkTheme.palette.background.default, // Use the theme's background color
-            minHeight: "100vh", // Set a minimum height to fill the viewports
+            backgroundColor: darkTheme.palette.background.default, 
+            minHeight: "100vh",
           }}
         >
           <br />
@@ -34,7 +40,7 @@ const About = () => {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
               <img
-                src='https://www.rocksolid.com/hubfs/annie-spratt-hCb3lIB8L8E-unsplash-768x504-1.jpg'
+                src={officeteam}
                 alt="team"
                 style={{
                   maxWidth: "95%",
@@ -106,32 +112,31 @@ const About = () => {
               name="Kaustubh"
               title="CTO|Metablog"
               bio="Coding and playing football"
-              icon="https://cdn.discordapp.com/attachments/1012020961299664899/1160613172596707478/image.png?ex=65354c3f&is=6522d73f&hm=9bb90dbb7ccd57d31007fd43b72d3698dfdbdfba5a31f9e44f0ececfe4cf263d&"
+              icon={kaust}
             />
             <TeamMemberCard
               name="Shawn"
               title="Cybersecurity Expert"
               bio="Watching anime while hacking"
-              // icon= "https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg"
-              icon= "https://cdn.discordapp.com/attachments/1012020961299664899/1160611838770286592/image.png?ex=65354b01&is=6522d601&hm=3834f0c5f85f88e750e356f5a0f863aba5f5176e18b20eafc14f87e529fc8320&"
+              icon={shawn}
             />
             <TeamMemberCard
               name="Ninad"
               title="Editor"
               bio="Eat Sleep Edit Repeat ♻ "
-              icon="https://pps.whatsapp.net/v/t61.24694-24/363270656_3596646263900325_4253991315114160706_n.jpg?ccb=11-4&oh=01_AdQ2Lf4Ao6eOHdlDD8XouoJ_uCbF5GU6ccU7BpK1VMF-uw&oe=652FA5C1&_nc_sid=000000&_nc_cat=103"
+              icon={nnk}
             />
             <TeamMemberCard
               name="Hamja"
               title="Web Developer"
               bio="Drinking coffee and coding!!"
-              icon="https://media.discordapp.net/attachments/1070680673049923694/1160564670466367569/53368643-d73b-4e99-bad4-37ae65245e41.jpg?ex=65351f13&is=6522aa13&hm=0a2f5cd2b381eaeabcb76e678f2d3e3387ea77b60be720d98941793eef3b0d59&=&width=431&height=473"
+              icon={hamja}
             />
             <TeamMemberCard
               name="Srinivas"
               title="Data Scientist"
               bio="Chelsea supporter!(I need help)"
-              icon="https://cdn.discordapp.com/attachments/1012020961299664899/1160610817675366491/image.png?ex=65354a0e&is=6522d50e&hm=1ba7e6a57e974026519ec1ddcfe1df03204e7e60601f01b423e47345e1c8118a&"
+              icon={srini}
             />
           </Grid>
         </div>

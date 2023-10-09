@@ -16,7 +16,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Blogcard from "../components/Blogcard";
 import { blogList } from "../config/data";
-
+import kurizu from "../images/kurizu.png";
+import discCard from "../images/discCard.svg"
 const Profile = () => {
   const theme = createTheme({
     palette: {
@@ -34,7 +35,7 @@ const Profile = () => {
               <Grid item xs={12} md={4}>
                 <Avatar
                   alt="Profile Picture"
-                  src="https://cdn.discordapp.com/attachments/1070680673049923694/1160566269087596574/e73d50dab94fcb7332fb6f9a69f4d1de.png?ex=65352090&is=6522ab90&hm=784d657ea4ae0b4c6d170b032913737a9d7de50074da2fec29b5c5af13769dee&"
+                  src={kurizu}
                   sx={{ width: 250, height: 250 }}
                 />
                 <Typography
@@ -77,7 +78,7 @@ const Profile = () => {
                   </Grid>
                   <Grid item xs={12} sm={6}>
                     <img
-                      src="https://camo.githubusercontent.com/3f25b6424caae35df1ece08cea4313947ac5ffd21930babb98a7d5ded88de764/68747470733a2f2f646973636f72642d63617264732e6b7572697a752e7265706c2e636f2f6170692f636f6d706163742f3738343134313835363432363033333233333f61626f75743d476f7474612532306c6f76652532306f6c696761726368792662616e6e65723d68747470733a2f2f692e657473797374617469632e636f6d2f34303935373734382f722f696c2f6534656661612f343831303132353135322f696c5f66756c6c7866756c6c2e343831303132353135325f323369722e6a7067"
+                      src={discCard}
                       alt="disc card"
                       style={{ width: "100%", height: "auto" }}
                     />

@@ -104,6 +104,7 @@ export default function SignInSide() {
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>
                   <TextField
+                    color="warning"
                     autoComplete="given-name"
                     name="firstName"
                     required
@@ -114,7 +115,7 @@ export default function SignInSide() {
                     inputProps={{
                       style: {
                         color: "white",
-                        borderBottom: "1px solid white",
+                        borderBottom: "1px solid #ff5733",
                       },
                     }}
                     InputLabelProps={{
@@ -126,6 +127,7 @@ export default function SignInSide() {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                   <TextField
+                    color="warning"
                     required
                     fullWidth
                     id="lastName"
@@ -135,7 +137,7 @@ export default function SignInSide() {
                     inputProps={{
                       style: {
                         color: "white",
-                        borderBottom: "1px solid white",
+                        borderBottom: "1px solid #ff5733",
                       },
                     }}
                     InputLabelProps={{
@@ -147,6 +149,7 @@ export default function SignInSide() {
                 </Grid>
                 <Grid item xs={12}>
                   <TextField
+                    color="warning"
                     required
                     fullWidth
                     id="email"
@@ -156,7 +159,7 @@ export default function SignInSide() {
                     inputProps={{
                       style: {
                         color: "white",
-                        borderBottom: "1px solid white",
+                        borderBottom: "1px solid #ff5733",
                       },
                     }}
                     InputLabelProps={{
@@ -168,6 +171,7 @@ export default function SignInSide() {
                 </Grid>
                 <Grid item xs={12}>
                   <TextField
+                    color="warning"
                     required
                     fullWidth
                     id="message"
@@ -178,7 +182,7 @@ export default function SignInSide() {
                     inputProps={{
                       style: {
                         color: "white",
-                        borderBottom: "1px solid white",
+                        borderBottom: "1px solid #ff5733",
                       },
                     }}
                     InputLabelProps={{
@@ -193,7 +197,19 @@ export default function SignInSide() {
                 type="submit"
                 fullWidth
                 variant="contained"
-                sx={{ mt: 3, mb: 2 }}
+                sx={{
+                  mt: 3,
+                  mb: 2,
+                  backgroundColor: "#ff5733",
+                  "&:focus": {
+                    backgroundColor: "#ff5733",
+                    color: "white",
+                  },
+                  "&:hover": {
+                    backgroundColor: "rgba(255, 87, 51, 0.2)",
+                    color: "white",
+                  },
+                }}
               >
                 Submit
               </Button>

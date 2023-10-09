@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import kurizu from "../images/kurizu.png";
 
 const pages = [
   { name: "Home", path: "/home" },
@@ -153,7 +154,7 @@ function ResponsiveAppBar() {
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar
                   alt="Kurizu"
-                  src="https://cdn.discordapp.com/attachments/1070680673049923694/1160566269087596574/e73d50dab94fcb7332fb6f9a69f4d1de.png?ex=65352090&is=6522ab90&hm=784d657ea4ae0b4c6d170b032913737a9d7de50074da2fec29b5c5af13769dee&"
+                  src={kurizu}
                 />
               </IconButton>
             </Tooltip>
