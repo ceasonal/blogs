@@ -109,7 +109,7 @@ const Profile = () => {
           </Grid>
         </Container>
       </div>
-        <Footer />
+      <Footer />
     </ThemeProvider>
   );
 };
