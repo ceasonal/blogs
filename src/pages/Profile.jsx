@@ -13,6 +13,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GithubIcon from "@mui/icons-material/GitHub";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Blogcard from "../components/Blogcard";
 import { blogList } from "../config/data";
 
@@ -107,8 +108,8 @@ const Profile = () => {
             ))}
           </Grid>
         </Container>
-        <br />
       </div>
+        <Footer />
     </ThemeProvider>
   );
 };
