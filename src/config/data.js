@@ -52,7 +52,24 @@ export const blogList = [
   },
   {
     id: 4,
-    title: "Why Koenigsegg Cars is my Favorite",
+    title: "Why Gojo Is a Fraud",
+    desc: "Join us as we delve into the controversial character of Gojo Satoru from 'Jujutsu Kaisen.' In this thought-provoking article, we explore why some fans believe Gojo is a fraudulent and problematic character, questioning his status as a hero and discussing criticisms related to his character traits, behavior, and impact on the series. We'll analyze the nuances of Gojo's personality, his actions within the Jujutsu Kaisen world, and how these aspects have sparked debates among the fandom. Whether you're a die-hard Gojo fan or have reservations about his role in the story, this discussion will shed light on the polarizing figure in the world of anime, providing a fresh perspective on the beloved character.",
+    category: "Anime",
+    cover:
+      "https://staticg.sportskeeda.com/editor/2023/09/f29a8-16954713783435-1920.jpg?w=840",
+    date: "October 3, 2023",
+    authoricon:
+      "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/241468695/e7521b291e663a20fc13ab993bc38613_9101029706671508747.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+    author: "Prashant",
+    comments: [
+      "Gojo's character development is lacking, making him less relatable.",
+      "GOJO BOZO.",
+      "FRAUD GOJO",
+    ],
+  },
+  {
+    id: 5,
+    title: "Why Koenigsegg Cars are my Favorite",
     desc: "Koenigsegg cars are not just vehicles; they are unparalleled engineering marvels that have redefined the world of high-performance automobiles. In this article, we delve into the awe-inspiring reasons why Koenigsegg stands as the pinnacle of automotive excellence.\n\nEach Koenigsegg car is a masterpiece of craftsmanship, precision engineering, and innovation. With cutting-edge technology, mind-boggling speed, and exquisite design, Koenigsegg continuously pushes the boundaries of what's possible in the automotive world. The heart of a Koenigsegg, its engine, is a work of art, capable of delivering mind-numbing power and acceleration that few cars can match.\n\nBeyond their incredible performance, Koenigsegg cars are also known for their exclusivity. Each model is crafted with meticulous attention to detail, often featuring unique materials and finishes tailored to the owner's desires. Owning a Koenigsegg is a statement of prestige and a symbol of automotive passion.\n\nBut what truly sets Koenigsegg apart is its relentless pursuit of innovation. The company has embraced hybrid technology, developed groundbreaking aerodynamics, and continues to explore new frontiers in automotive design. Koenigsegg doesn't just build cars; they engineer experiences that leave enthusiasts in awe.\n\nJoin us as we explore the extraordinary features that make Koenigsegg cars the epitome of automotive perfection, and why they hold a special place in the hearts of automotive enthusiasts worldwide.",
     category: "Automotive",
     cover:
@@ -68,7 +85,7 @@ export const blogList = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "CS2: A Triumph in the World of eSports",
     desc: "Prepare to be dazzled as we step into the electrifying world of eSports with the release of CS2! This highly anticipated sequel has not only met but exceeded the lofty expectations of fans, sending shockwaves through the gaming community. In this article, we delve into the heart-pounding action and innovations that have made CS2 an instant classic in eSports history.\n\nCS2 brings a fresh dimension to the competitive gaming landscape, offering a meticulously balanced gameplay experience that keeps both veterans and newcomers on the edge of their seats. The strategic depth, precision shooting mechanics, and dynamic maps have garnered widespread acclaim, setting a new standard for competitive shooters.\n\nBut CS2 is not just about gameplay—it's about the community. Fans have united in their appreciation for the vibrant eSports scene that has flourished around this title. The competitive tournaments, live streams, and passionate fanbase have elevated CS2 to a league of its own, fostering an environment where aspiring gamers can showcase their skills on a global stage.\n\nBeyond the gameplay, CS2 has embraced cutting-edge technology, offering immersive virtual reality experiences, realistic graphics, and a robust esports ecosystem. With a commitment to fairness and integrity, CS2 has become a benchmark for competitive integrity, setting an example for the eSports industry.\n\nJoin us as we unravel the triumphs, challenges, and innovations that have defined CS2 as a triumph in the world of eSports. Whether you're a dedicated eSports enthusiast or a casual gamer, this is an adventure you won't want to miss!",
     category: "ESports",
@@ -85,7 +102,7 @@ export const blogList = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Why Python is the Best Programming Language",
     desc: "Python has emerged as the undeniable champion in the realm of programming languages, and it's not by chance. In this article, we delve into the myriad reasons why Python stands out as the top choice for developers and organizations alike.\n\nPython's simplicity and readability are legendary. Its clean and elegant syntax makes it easy to learn, reducing the barriers for beginners and accelerating development for seasoned professionals. Whether you're a newcomer to coding or a veteran developer, Python's versatility ensures that you can tackle a wide range of projects with ease.\n\nOne of Python's defining features is its extensive library ecosystem. The Python Package Index (PyPI) hosts a vast collection of libraries and frameworks that cover everything from web development and data analysis to artificial intelligence and scientific computing. With Python, you're never far from a solution to your programming needs.\n\nMoreover, Python's cross-platform compatibility allows developers to write code once and run it on various operating systems, simplifying the development and deployment process. It's also known for its strong community support, with a large and active user base that continually contributes to its growth.\n\nPython's role in cutting-edge technologies like machine learning, data science, and web development has solidified its position as the go-to language for innovation. Its versatility, combined with its widespread adoption, makes Python a language that transcends boundaries and empowers developers worldwide.\n\nJoin us as we explore why Python's simplicity, versatility, and community support make it the best programming language in today's technology landscape.",
     category: "Programming",
@@ -99,23 +116,6 @@ export const blogList = [
       "Absolutely, Python is a game-changer!",
       "Python's readability is unmatched, making it a pleasure to work with.",
       "I've seen Python power everything from web apps to machine learning models. It's truly versatile.",
-    ],
-  },
-  {
-    id: 7,
-    title: "Why Genshin Impact Is a Gaming Masterpiece",
-    desc: "Genshin Impact has taken the gaming world by storm, earning a place in the hearts of gamers worldwide. In this article, we explore the enchanting reasons why Genshin Impact stands as a true gaming masterpiece.\n\nFrom its breathtaking open world to its captivating storyline, Genshin Impact offers an immersive experience like no other. The vast and meticulously crafted world of Teyvat is a joy to explore, filled with stunning landscapes, hidden treasures, and challenging dungeons.\n\nWhat truly sets Genshin Impact apart is its diverse cast of characters, each with their unique abilities and personalities. The game's elemental combat system adds layers of strategy and excitement to battles, encouraging players to experiment with different character combinations and elemental reactions.\n\nThe commitment to player engagement is evident in Genshin Impact's regular content updates. The developers continue to expand the game, introducing new regions, characters, and quests, keeping players eagerly anticipating each update.\n\nGenshin Impact's stunning visuals and enchanting soundtrack create a captivating atmosphere that draws players into its magical world. The attention to detail in every aspect of the game showcases the developers' dedication to delivering an unforgettable gaming experience.\n\nJoin us as we delve into the enchanting world of Genshin Impact, uncovering the elements that make it a true gaming masterpiece loved by millions. Whether you're a seasoned gamer or new to the world of gaming, Genshin Impact offers an adventure you won't want to miss.",
-    category: "Gaming",
-    cover:
-      "https://www.ginx.tv/respawn-cdn/V9B7TB1OsoHMohmiwLJmsjt1rYe_WK1pMePuhyJUQFQ/fill/1280/0/no/1/aHR0cHM6Ly93d3cuZ2lueC50di91cGxvYWRzMi9HZW5zaGluX0ltcGFjdC9zd2l0Y2gvbWF4cmVzZGVmYXVsdC5qcGc.webp",
-    date: "October 3, 2023",
-    authoricon:
-      "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/241468695/e7521b291e663a20fc13ab993bc38613_9101029706671508747.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
-    author: "Prashant",
-    comments: [
-      "Genshin Impact truly is a masterpiece of gaming!",
-      "The open world and character diversity make it an unforgettable experience.",
-      "I can't get enough of Genshin Impact's enchanting world.",
     ],
   },
   {
