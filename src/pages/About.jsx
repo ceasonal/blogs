@@ -127,7 +127,7 @@ const About = () => {
               icon={nnk}
             />
             <TeamMemberCard
-              name="Hamja"
+              name="Hamza"
               title="Web Developer"
               bio="Drinking coffee and coding!!"
               icon={hamja}
