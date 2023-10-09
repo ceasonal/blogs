@@ -37,7 +37,7 @@ export const blogList = [
     id: 3,
     title: "Why One Piece Anime is the Best",
     desc: "Embark on a legendary adventure with 'One Piece,' an anime that has not only captured the hearts of fans worldwide but has also become a cultural phenomenon. In this article, we explore the captivating reasons why 'One Piece' stands out as one of the greatest anime series of all time.\n\n'One Piece' isn't just an anime; it's an epic journey filled with unforgettable characters, breathtaking battles, and a captivating storyline that spans across vast seas and uncharted territories. The brainchild of Eiichiro Oda, 'One Piece' has enthralled audiences for decades with its rich world-building, intricate character development, and a sense of camaraderie that touches the core of human emotions. Whether you're a fan of action, adventure, or heartwarming moments, 'One Piece' offers it all in abundance.\n\nWhat truly sets 'One Piece' apart is its ability to tackle profound themes like friendship, justice, and the pursuit of dreams, all while delivering action-packed battles that keep you on the edge of your seat. The Straw Hat Pirates, led by the indomitable Monkey D. Luffy, have become icons in the world of anime, embodying the spirit of never giving up, no matter the odds.\n\nJoin us as we uncover why 'One Piece' has become a timeless classic, continuing to inspire and entertain generations of viewers.",
-    category: "ENTERTAINMENT",
+    category: "Entertainment",
     cover:
       "https://www.hindustantimes.com/ht-img/img/2023/03/28/1600x900/One_Piece_Wano_1679966485338_1679966497954_1679966497954.webp",
     date: "October 03, 2023",
@@ -54,7 +54,7 @@ export const blogList = [
     id: 4,
     title: "Why Koenigsegg Cars is my Favorite",
     desc: "Koenigsegg cars are not just vehicles; they are unparalleled engineering marvels that have redefined the world of high-performance automobiles. In this article, we delve into the awe-inspiring reasons why Koenigsegg stands as the pinnacle of automotive excellence.\n\nEach Koenigsegg car is a masterpiece of craftsmanship, precision engineering, and innovation. With cutting-edge technology, mind-boggling speed, and exquisite design, Koenigsegg continuously pushes the boundaries of what's possible in the automotive world. The heart of a Koenigsegg, its engine, is a work of art, capable of delivering mind-numbing power and acceleration that few cars can match.\n\nBeyond their incredible performance, Koenigsegg cars are also known for their exclusivity. Each model is crafted with meticulous attention to detail, often featuring unique materials and finishes tailored to the owner's desires. Owning a Koenigsegg is a statement of prestige and a symbol of automotive passion.\n\nBut what truly sets Koenigsegg apart is its relentless pursuit of innovation. The company has embraced hybrid technology, developed groundbreaking aerodynamics, and continues to explore new frontiers in automotive design. Koenigsegg doesn't just build cars; they engineer experiences that leave enthusiasts in awe.\n\nJoin us as we explore the extraordinary features that make Koenigsegg cars the epitome of automotive perfection, and why they hold a special place in the hearts of automotive enthusiasts worldwide.",
-    category: "AUTOMOTIVE",
+    category: "Automotive",
     cover:
       "https://cdn.motor1.com/images/mgl/40LwMz/s3/koenigsegg-factory-6.jpg",
     date: "September 28, 2023",
@@ -122,7 +122,7 @@ export const blogList = [
     id: 8,
     title: "Exploring Controversies Surrounding Chelsea FC",
     desc: "Chelsea FC, one of the prominent football clubs in the world, has had its fair share of controversies and debates throughout its history. While the club boasts a rich legacy of success, it has also faced criticisms and scrutiny on several fronts.\n\nOne of the contentious issues often raised is Chelsea's financial power. The club has been known for significant investments in the transfer market, which has led to debates about financial fair play and the impact on competition within the Premier League.\n\nAdditionally, Chelsea has faced allegations related to fan behavior, including incidents of racism and offensive chants. These issues have prompted calls for increased awareness and actions to address such concerns.\n\nFurthermore, the club's managerial changes have been a subject of discussion. Chelsea's management style, characterized by frequent managerial turnover, has sparked debates about stability and the nurturing of young talents within the squad.\n\nHowever, it's crucial to note that Chelsea FC has also made significant contributions to football. The club's successes, including numerous Premier League titles and UEFA Champions League victories, have cemented its place in football history.\n\nIn this article, we delve into the controversies and debates surrounding Chelsea FC, acknowledging both its accomplishments and the areas where criticism has arisen. As with any football club, opinions about Chelsea may vary, and the club's journey continues to evolve.",
-    category: "Football",
+    category: "Sports",
     cover: "https://cdn.mos.cms.futurecdn.net/WncERiw7FU4ZF5VxVDFipA.jpg",
     date: "October 10, 2023",
     authoricon:
