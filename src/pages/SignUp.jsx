@@ -103,6 +103,7 @@ const SignUp = () => {
                 <Grid container spacing={2}>
                   <Grid item xs={12} sm={6}>
                     <TextField
+                      color="warning"
                       autoComplete="given-name"
                       name="firstName"
                       required
@@ -113,7 +114,7 @@ const SignUp = () => {
                       inputProps={{
                         style: {
                           color: "white",
-                          borderBottom: "1px solid white",
+                          borderBottom: "1px solid #ff5733",
                         },
                       }}
                       InputLabelProps={{
@@ -125,6 +126,7 @@ const SignUp = () => {
                   </Grid>
                   <Grid item xs={12} sm={6}>
                     <TextField
+                      color="warning"
                       required
                       fullWidth
                       id="lastName"
@@ -134,7 +136,7 @@ const SignUp = () => {
                       inputProps={{
                         style: {
                           color: "white",
-                          borderBottom: "1px solid white",
+                          borderBottom: "1px solid #ff5733",
                         },
                       }}
                       InputLabelProps={{
@@ -146,16 +148,19 @@ const SignUp = () => {
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
+                      color="warning"
+                      margin="normal"
                       required
                       fullWidth
                       id="email"
                       label="Email Address"
                       name="email"
                       autoComplete="email"
+                      autoFocus
                       inputProps={{
                         style: {
                           color: "white",
-                          borderBottom: "1px solid white",
+                          borderBottom: "1px solid #ff5733",
                         },
                       }}
                       InputLabelProps={{
@@ -167,6 +172,7 @@ const SignUp = () => {
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
+                      color="warning"
                       required
                       fullWidth
                       name="password"
@@ -177,7 +183,7 @@ const SignUp = () => {
                       inputProps={{
                         style: {
                           color: "white",
-                          borderBottom: "1px solid white",
+                          borderBottom: "1px solid #ff5733",
                         },
                       }}
                       InputLabelProps={{
@@ -193,10 +199,15 @@ const SignUp = () => {
                       control={
                         <Checkbox
                           value="allowExtraEmails"
-                          sx={{ color: "whiteSmoke" }}
+                          sx={{
+                            color: "#ff5733",
+                            "&.Mui-checked": {
+                              color: "#ff5733",
+                            },
+                          }}
                         />
                       }
-                      label="I want to receive websites updates via Email."
+                      label="Remember me"
                     />
                   </Grid>
                 </Grid>
@@ -204,7 +215,12 @@ const SignUp = () => {
                   type="submit"
                   fullWidth
                   variant="contained"
-                  sx={{ mt: 3, mb: 2 }}
+                  sx={{
+                    mt: 3,
+                    mb: 2,
+                    backgroundColor: "#ff5733",
+                    color: "white",
+                  }}
                 >
                   Sign Up
                 </Button>

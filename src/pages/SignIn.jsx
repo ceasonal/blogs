@@ -40,7 +40,7 @@ const SignIn = () => {
     if (email === "testuser@gmail.com" && password === "Sipher@4") {
       alert("Sign in successful!");
       navigate("/home");
-    }else{
+    } else {
       alert("Invalid credentials!");
     }
   };
@@ -73,6 +73,7 @@ const SignIn = () => {
                 onSubmit={handleSubmit}
               >
                 <TextField
+                  color="warning"
                   margin="normal"
                   required
                   fullWidth
@@ -82,7 +83,10 @@ const SignIn = () => {
                   autoComplete="email"
                   autoFocus
                   inputProps={{
-                    style: { color: "white", borderBottom: "1px solid white" },
+                    style: {
+                      color: "white",
+                      borderBottom: "1px solid #ff5733",
+                    },
                   }}
                   InputLabelProps={{
                     style: {
@@ -91,6 +95,7 @@ const SignIn = () => {
                   }}
                 />
                 <TextField
+                  color="warning"
                   margin="normal"
                   required
                   fullWidth
@@ -100,18 +105,29 @@ const SignIn = () => {
                   id="password"
                   autoComplete="current-password"
                   inputProps={{
-                    style: { color: "white", borderBottom: "1px solid white" },
+                    style: {
+                      color: "whitesmoke",
+                      borderBottom: "1px solid #ff5733",
+                    },
                   }}
                   InputLabelProps={{
                     style: {
-                      color: "white",
+                      color: "whitesmoke",
                     },
                   }}
                 />
                 <FormControlLabel
                   style={{ color: "whitesmoke" }}
                   control={
-                    <Checkbox value="remember" sx={{ color: "whitesmoke" }} />
+                    <Checkbox
+                      value="remember"
+                      sx={{
+                        color: "#ff5733",
+                        "&.Mui-checked": {
+                          color: "#ff5733",
+                        },
+                      }}
+                    />
                   }
                   label="Remember me"
                 />
@@ -119,7 +135,12 @@ const SignIn = () => {
                   type="submit"
                   fullWidth
                   variant="contained"
-                  sx={{ mt: 3, mb: 2 }}
+                  sx={{
+                    mt: 3,
+                    mb: 2,
+                    backgroundColor: "#ff5733",
+                    color: "white",
+                  }}
                 >
                   Sign In
                 </Button>
