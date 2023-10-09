@@ -112,8 +112,8 @@ const About = () => {
               name="Shawn"
               title="Cybersecurity Expert"
               bio="Watching anime while hacking"
-              icon= "https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg"
-              // icon= "https://cdn.discordapp.com/attachments/1012020961299664899/1160611838770286592/image.png?ex=65354b01&is=6522d601&hm=3834f0c5f85f88e750e356f5a0f863aba5f5176e18b20eafc14f87e529fc8320&"
+              // icon= "https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg"
+              icon= "https://cdn.discordapp.com/attachments/1012020961299664899/1160611838770286592/image.png?ex=65354b01&is=6522d601&hm=3834f0c5f85f88e750e356f5a0f863aba5f5176e18b20eafc14f87e529fc8320&"
             />
             <TeamMemberCard
               name="Ninad"
