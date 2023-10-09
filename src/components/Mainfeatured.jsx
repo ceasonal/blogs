@@ -4,11 +4,10 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-import SendIcon from '@mui/icons-material/Send';
+import SendIcon from "@mui/icons-material/Send";
 import testimage from "../images/featured.png";
 
 export default function MainFeaturedPost() {
-
   return (
     <Paper
       sx={{
@@ -53,8 +52,25 @@ export default function MainFeaturedPost() {
             </Typography>
             <Typography variant="h6" color="inherit" paragraph>
               Write a blog post and share it with the world!
-            </Typography> <br/>
-            <Button  variant="outlined" endIcon={<SendIcon />} href="/create">
+            </Typography>{" "}
+            <br />
+            <Button
+              variant="outlined"
+              endIcon={<SendIcon />}
+              href="/post"
+              sx={{
+                borderColor: "#ff5733",
+                color: "#ff5733",
+                "&:hover": {
+                  backgroundColor: "rgba(255, 87, 51, 0.2)",
+                  color: "white",
+                },
+                "&:focus": {
+                  backgroundColor: "#ff5733",
+                  color: "white",
+                },
+              }}
+            >
               Create Post
             </Button>
           </Box>

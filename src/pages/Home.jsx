@@ -39,6 +39,8 @@ const Home = () => {
                     category={post.category}
                     cover={post.cover}
                     date={post.date}
+                    authorIcon={post.authoricon}
+                    author={post.author}
                   />
                 </Grid>
               ))}

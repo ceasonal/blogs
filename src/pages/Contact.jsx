@@ -1,6 +1,7 @@
+import React from "react";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
-import TextField from "@mui/material/TextField";  
+import TextField from "@mui/material/TextField";
 import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
@@ -41,7 +42,7 @@ export default function SignInSide() {
       firstName: data.get("firstName"),
       lastName: data.get("lastName"),
       email: data.get("email"),
-      message: data.get("message")
+      message: data.get("message"),
     });
 
     const firstName = data.get("firstName");
@@ -61,7 +62,6 @@ export default function SignInSide() {
     }
 
     alert("Message sent successfully!");
-
   };
 
   return (
@@ -173,8 +173,8 @@ export default function SignInSide() {
                     id="message"
                     label="Message"
                     name="message"
-                    multiline 
-                    rows={4} 
+                    multiline
+                    rows={4}
                     inputProps={{
                       style: {
                         color: "white",
