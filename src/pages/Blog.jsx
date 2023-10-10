@@ -12,9 +12,9 @@ import Divider from "@mui/material/Divider";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
-import mithil from "../images/mitihil.png"
-import shakti from "../images/shakti.png"
-import margish from "../images/margish.jpg"
+import user1 from "../images/user1.png"
+import user2 from "../images/user2.jpg"
+import user3 from "../images/user3.png"
 
 const Comment = ({ userIcon, userName, commentText, value }) => (
   <Box display="flex" alignItems="center" marginTop="16px">
@@ -137,22 +137,22 @@ const Blog = () => {
               </Typography>
               <div style={{ paddingLeft: "40px" }}>
                 <Comment
-                  userIcon={shakti}
-                  userName="Shakti"
+                  userIcon={user1}
+                  userName="user1"
                   commentText={blogs.comments[0]}
                   value={4}
                 />
                 <br />
                 <Comment
-                  userIcon={mithil}
-                  userName="Mithil"
+                  userIcon={user2}
+                  userName="user2"
                   commentText={blogs.comments[1]}
                   value={4}
                 />
                 <br />
                 <Comment
-                  userIcon={margish}
-                  userName="Margish"
+                  userIcon={user3}
+                  userName="user3"
                   commentText={blogs.comments[2]}
                   value={5}
                 />

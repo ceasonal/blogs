@@ -6,12 +6,6 @@ import AboutUsCard from "../components/Choosecard";
 import TeamMemberCard from "../components/Teammembercard";
 import Footer from "../components/Footer";
 import officeteam from "../images/officeteam.jpg"
-import kaust from "../images/kaust.png"
-import shawn from "../images/shawn.png"
-import nnk from "../images/nnk.jpg"
-import hamja from "../images/hamja.jpg"
-import srini from "../images/srini.jpg"
-
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
@@ -112,31 +106,31 @@ const About = () => {
               name="Kaustubh"
               title="CTO|Metablog"
               bio="Coding and playing football"
-              icon={kaust}
+              icon='https://e1.pxfuel.com/desktop-wallpaper/909/106/desktop-wallpaper-one-piece-icons-%E2%9E%BA-roronoa-zoro-zoro-pfp.jpg'
             />
             <TeamMemberCard
               name="Shawn"
               title="Cybersecurity Expert"
               bio="Watching anime while hacking"
-              icon={shawn}
+              icon='https://i.pinimg.com/474x/11/e6/75/11e67578666ff4fd059bf39ebec29358.jpg'
             />
             <TeamMemberCard
               name="Ninad"
               title="Editor"
               bio="Eat Sleep Edit Repeat ♻ "
-              icon={nnk}
+              icon='https://i.pinimg.com/originals/1a/67/6d/1a676d658fd9b78fdaea59bb1bfeb83d.jpg'
             />
             <TeamMemberCard
               name="Hamza"
               title="Web Developer"
               bio="Drinking coffee and coding!!"
-              icon={hamja}
+              icon='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
             />
             <TeamMemberCard
               name="Srinivas"
               title="Data Scientist"
               bio="Chelsea supporter!(I need help)"
-              icon={srini}
+              icon='https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png'
             />
           </Grid>
         </div>
